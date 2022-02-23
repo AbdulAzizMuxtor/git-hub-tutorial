@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: lato-medium;
+    src: url(/22-23dars/fonts/Lato-Medium.ttf);
+}
+@font-face {
+    font-family: lato-regular;
+    src: url(/22-23dars/fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: woodland;
+    src: url(/22-23dars/fonts/Woodland.ttf);
+}
+@font-face {
+    font-family: anodino;
+    src: url(/22-23dars/fonts/Anodina-Regular.ttf);
+}
+body
+{
+    background-color:rgb(28, 28, 28); ;
+}
+.sayt
+{
+    margin: 0 auto;
+    width: 1000px;
+    height: 1500px auto;
+    background:url("../../image/orqafon.jpg") ;
+
+
+}
+.header
+{
+    margin-top: 18px;
+    height: 97px;
+    background-color: #eb6e08;
+    box-shadow: 0 0 20px black;
+
+}
+.header img
+{
+margin-left: 50px;
+margin-top: 10px;
+display: inline-block;
+}
+.navbar ul
+{
+    height: 97px;
+    float: right;
+    list-style: none;
+    margin-top: -107px;
+    margin-right: 50px;
+}
+.navbar ul li
+{
+    height: 63px;
+    display: inline-block;
+    line-height: 93px;
+    font-size: 18px;
+    margin-left: 50px;
+    list-style: none;
+    font-family: lato-medium;
+    
+    
+
+    
+}
+.navbar ul li:hover
+{
+    border-bottom: 2px solid black;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.main
+{
+    margin-top: 30px;
+    height: 374px;
+    background:  linear-gradient(to left bottom, #14100cb9,#14100cb9,#14100cb9,#14100cb9), url(/22-23dars/image/asosiyfon.jpg);
+    text-align: center;
+    font-family: lato-regular;
+    color: white;
+    box-shadow: 0 0 20px black;
+}
+.main h4
+{
+    display: inline-block;
+    margin-top: 75px;
+    font-size: 85px;
+}
+.main h3
+{
+    font-size: 35px;
+    margin-top: -20px;
+}
+.main p
+{
+    margin-top: 50px;
+    margin-left: 305px;
+    font-family: lato-regular;
+    font-size: 13px;
+    width: 390px;
+}
+.main2
+{
+    width: 905px;
+    height: 315px;
+    box-shadow: 0 0 30px black;
+    margin: 30px auto;
+    background:radial-gradient(at center,white, white, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.158)), white ;
+}
+.main2 p
+{
+    display: inline-block;
+    font-size: 18px;
+    font-family: anodino;
+    margin-left: 104px;
+}
+.line
+{
+    width: 100%;
+    border-top: 1px solid red;
+    border-bottom:1px solid red;
+    height: 5px;
+}
+.menu
+{
+    display: flex;
+    padding: 5px 10px;
+    text-align: center;
+    
+}
+.ovqat
+{
+    width: 150px ;
+    height: 150px;
+    border: 4px dashed black;
+    border-radius: 50%;
+    margin-left: 84px;
+    margin-top: 25px;
+   
+}
+.menu h1
+{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 45px;
+}
+.menu h4
+{
+    font-family: monospace;
+    font-size: 14px;
+    width:250px;
+    margin-left:-40px ;
+
+}
+.line1
+{
+    margin-top:90px ;
+    width: 100%;
+    border-top: 1px solid red;
+    border-bottom:1px solid red;
+    height: 5px;
+}
+.menu .box img
+{
+  
+    border-radius: 50%;
+    background-image: cover;
+    margin-top: 7px;
+    position: relative;
+   
+}
+/* .box img:hover{ width: 130px; height: 130px;} */
+.box
+{
+    background-color: coral;
+    background-image: linear-gradient(0.0deg,#ffff00 -24%, #ff6e02 125%);
+    border-radius: 50%;
+    /* margin: 5px; */
+    padding: 7.4px;
+
+
+}
+.narx
+{
+    border: 1px solid green;
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 35px;
+    margin-top: -150px;
+    margin-left: 45px;
+    
+    background-color: teal;
+}
+.narx p
+{
+    color: white;
+    margin-left: -1px;
+    
+}
+.registratsiya 
+{
+    /* border: 1px solid red; */
+    width: 300px;
+    float: left;
+    height: 400px;
+    margin-left: 50px;
+    background: linear-gradient(to right, #ff6e02,#eb6708,#9a481e,#3c2439);
+}
+.registratsiya button
+{
+    margin:20px 30px ;
+    width: 170px;
+    height: 50px;
+    border-radius:30px ;
+    background-color: white;
+    background-image: linear-gradient(
+        90.0deg
+        , #d36207 -24%, #ffb504 125%);
+        box-shadow: 0 0 20px black;
+}
+.registratsiya h4 , input
+{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.img
+{
+    width: 550px;
+    margin-right: 50px;
+    /* border: 1px solid red; */
+    height: 400px;
+    float: right;
+    background-color: black;
+    opacity: 0.5;
+    color: rgb(255, 254, 253);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.img h1
+{
+    margin-top: -290px;
+}
+.rasm img
+{
+    width: 500px;
+
+}
+.cln
+{
+    clear: both;
+}
+.footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+  
+}
+.logo
+{
+    margin: 30px;
+    display: block;
+    width: 333px;
+    float: left;
+}
+.aloqa{
+    margin-top:50px ;
+    width: 400px;
+    float: right;
+    height: auto;
+
+
+
+}
+.aloqa .fa
+{
+    display: block;
+    margin: 5px;
+    font-size: large;
+}
